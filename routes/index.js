@@ -3,27 +3,27 @@ let router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Home' });
+  res.render('content/index', { title: 'Home' });
 });
 
 /* GET about page. */
 router.get('/about', (req, res, next) => {
-  res.render('about', { title: 'About' });
+  res.render('content/about', { title: 'About' });
 });
 
 /* GET project page. */
-router.get('/project', (req, res, next) => {
-  res.render('project', { title: 'project' });
+router.get('/projects', (req, res, next) => {
+  res.render('content/projects', { title: 'Projects' });
 });
 
 /* GET service page. */
-router.get('/service', (req, res, next) => {
-  res.render('service', { title: 'service' });
+router.get('/services', (req, res, next) => {
+  res.render('content/services', { title: 'Services' });
 });
 
 /* GET contact page. */
 router.get('/contact', (req, res, next) => {
-  res.render('contact', { title: 'contact' });
+  res.render('content/contact', { title: 'Contact' });
 });
 
 module.exports = router;
