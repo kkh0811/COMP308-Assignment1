@@ -1,3 +1,14 @@
+/*
+#######################################################################################
+The name of source file : index.js
+The information of author :  Giho Kim #300738697
+Last Modified by: Giho Kim
+Last Modified date: 07-Feb-2017
+Program Description: this page is to locate web page using router.
+Revision History: 1.0
+#######################################################################################
+*/
+
 let express = require('express');
 let router = express.Router();
 

@@ -1,4 +1,14 @@
 /* custom css */
+/*
+#######################################################################################
+The name of source file : app.css
+The information of author :  Giho Kim #300738697
+Last Modified by: Giho Kim
+Last Modified date: 07-Feb-2017
+Program Description: This is main css file to handle a whole style of my web site.
+Revision History: 1.0
+#######################################################################################
+*/
 html {
   position: relative;
   min-height: 100%;
